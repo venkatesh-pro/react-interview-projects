@@ -1,0 +1,37 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.cardContainer-item {
+  width: 250px;
+  height: 400px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.cardContainer-item div p {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.cardContainer-item div button {
+  margin-left: 70%;
+  background: #6cbce1;
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.cardContainer-item img {
+  width: 100%;
+}
+.image-and-titleInCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-and-titleInCards p {
+  margin-left: 10px;
+}

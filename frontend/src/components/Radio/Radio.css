@@ -1,0 +1,17 @@
+.radio-container {
+  width: 200px;
+  border-bottom-color: gray;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top-color: gray;
+  border-top-width: 1px;
+  border-top-style: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+
+}
+.radio-container input {
+  margin: 5px;
+  margin-left: 10px;
+}

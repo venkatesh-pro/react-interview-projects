@@ -1,0 +1,12 @@
+.checkbox-container {
+  overflow-y: scroll;
+  height: 295px;
+  border-top-color: gray;
+  border-top-width: 1px;
+  border-top-style: solid;
+  padding-top: 10px;
+}
+.checkbox-container input {
+  margin: 5px;
+  margin-left: 10px;
+}
